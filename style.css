@@ -1,0 +1,212 @@
+/* Common css starts here */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+.btn{
+    color: rgba(0, 0, 0, 0.71);
+    background: rgba(208, 255, 0, 0.8);
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: rgb(255, 72, 0, .6);
+}
+.heading {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    letter-spacing: .1px;
+}
+span{
+    color: rgba(130, 121, 21, 0.8);
+}
+/* Common css ends here */
+
+/* Header css start here */
+#header{
+    width: 100%;
+    height: 60px;
+    
+}
+
+
+.menu{
+    float: right;
+    list-style-type: none;
+}
+.menu li{
+    float: left;
+    margin: 15px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li a:hover{
+    opacity: .8;
+}
+/* Header css ends here */
+
+/* About css starts here */
+#about{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    height: 350px;
+}
+.left_content{
+    width: 400px;
+    float: left;
+    margin: 2%;
+}
+.left_content h1{
+    color: rgba(0, 0, 0, 0.176);
+    font-size: 40px;
+    font-weight: 700;
+}
+.left_content span{
+    color: rgb(255, 72, 0, .8);
+    padding-bottom: 20px;
+}
+.left_content p{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.left_content img.extension{
+ 
+    margin-left: 0;
+    width: 100%;
+}
+.left_content img.extension{
+    margin-left: 0;
+    width: 100%;
+}
+/* About css ends here */
+
+/* Work css start here */
+#work {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f9f9f9;
+    height: 350px;
+}
+
+
+#work .box_content{
+    width: 250px;
+    height: 300px;
+    background: white;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 12px;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.box_content .image_size{
+    width: 250px;
+}
+#work .box_content h4{
+    padding: 5px 0px;
+}
+#work .box_content p{
+    color: gray;
+}
+/* Work css ends here */
+
+/* Experience css starts here */
+#experience{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: #f1f1f1;
+    height: 350px;
+}
+#experience .experience_content{
+    width: 400px;
+    height: 300px;
+    background: transparent;
+    /* border: 1px solid lightgray; */
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(255, 72, 0, .8);
+    padding: 12px;
+    border-left: 4px solid;
+    border: 4px solid;
+    border-image: linear-gradient(180deg,blue, rgb(255, 72, 0, .8) ); 
+    border-image-slice: 1;
+    float: left;
+    margin-right: 15px;
+    cursor: pointer;
+}
+#experience .experience_content h2{
+    text-align: center;
+    color: rgba(0, 4, 255, 0.8);
+    padding-bottom: 10px;
+}
+#experience .experience_content p{
+    color: gray;
+    padding: 20px 5px 30px;
+}
+
+/* Experience css ends here */
+
+/* inquiry css starts here */
+#inquiry{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    background: #ffffff;
+    height: 200px;
+    
+}   
+#inquiry .work_inquiry {
+    width: 650px;
+    height: 150px;
+    background: url("images/Group_33094_1.png") no-repeat center/cover;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+#inquiry .inquiry_content{
+    display: inline;
+    float: left;
+    margin-right: 200px;
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+#inquiry .work_inquiry div.button {
+    padding-top: 60px;
+}
+
+/* inquiry css ends here */
+
+/* Contact css starts here */
+#contact{
+
+    height: 100px;
+    text-align: center;
+} 
+#contact h5{
+    color: lightgray;
+    padding-bottom: 10px;
+}
+#contact .icon_size{
+    width: 25px;
+    margin: 0 auto;
+}
+.center_contact{
+    float: left;
+    margin: 0 320px;
+}
